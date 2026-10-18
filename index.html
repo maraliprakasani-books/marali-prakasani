@@ -1,4 +1,17 @@
-<!doctype html><html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#123f32"><meta name="description" content="মরালী প্রকাশনীর বইয়ের সংগ্রহ এবং WhatsApp-এ বই অর্ডার"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png"><title>মরালী প্রকাশনী | Marali prakasani</title><style>
+<!doctype html><html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#123f32"><meta name="description" content="মরালী প্রকাশনীর বইয়ের সংগ্রহ এবং WhatsApp-এ বই অর্ডার"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png"><title>মরালী প্রকাশনী | Marali prakasani</title><style>html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.intro {
+  overflow-wrap: anywhere;
+}
 *{box-sizing:border-box}body{margin:0;background:#f8f6ef;color:#23382f;font-family:'Noto Sans Bengali','Hind Siliguri',system-ui,sans-serif}header{background:#123f32;color:white;padding:24px 18px 28px;text-align:center}header h1{font-size:30px;margin:6px 0}header p{margin:4px;color:#eadbb8}.wrap{max-width:1050px;margin:auto;padding:20px 16px}.intro{font-size:17px;line-height:1.7}.search{width:100%;padding:14px;border:1px solid #c4cfc5;border-radius:12px;font:inherit;margin:8px 0 22px;background:white}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.book{background:white;border-radius:15px;overflow:hidden;box-shadow:0 3px 14px #18382d15;display:flex;flex-direction:column}.cover{width:100%;aspect-ratio:2/3;object-fit:contain;background:#eae5d8}.details{padding:14px;display:flex;flex-direction:column;gap:8px;flex:1}.details h2{font-size:18px;line-height:1.4;margin:0}.author{color:#64736b;font-size:14px}.description{font-size:14px;line-height:1.7;flex:1;margin:0}.price{font-size:19px;font-weight:800}.old{text-decoration:line-through;color:#888;font-size:14px;font-weight:400}.discount{color:#b24a25;font-size:13px}.buy,.group{display:block;text-align:center;text-decoration:none;background:#177c4b;color:white;border-radius:10px;padding:12px 8px;font-weight:700}.group{background:#f0d89b;color:#163f31;margin:20px 0}.contact{text-align:center;padding:22px 12px;line-height:1.8}footer{text-align:center;background:#123f32;color:white;padding:18px;font-size:13px}#empty{display:none;text-align:center;padding:25px}@media(min-width:720px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.wrap{padding:30px 22px}.cover{height:340px;aspect-ratio:auto}}
 </style></head><body><header><div style="font-size:36px">📚</div><h1>মরালী প্রকাশনী</h1><p>Marali prakasani</p><p>বাংলা সাহিত্য, ইতিহাস ও সংস্কৃতির বই</p></header><main class="wrap"><p class="intro">মরালী প্রকাশনীর নির্বাচিত গ্রন্থসম্ভার। পছন্দের বইটি বেছে নিন এবং সরাসরি WhatsApp-এ অর্ডার করুন।</p><input id="search" class="search" placeholder="বই বা লেখকের নাম লিখে খুঁজুন" aria-label="বই খুঁজুন"><div id="books" class="grid"></div><p id="empty">কোনও বই পাওয়া যায়নি।</p><a class="group" href="https://chat.whatsapp.com/HWIKqkerlyCGUmfir67gEQ?s=sh&amp;p=a&amp;mlu=4&amp;ilr=4&amp;iam=2" target="_blank" rel="noopener noreferrer">আমাদের WhatsApp গ্রুপে যোগ দিন</a><div class="contact">বই সম্পর্কে জানতে বা অর্ডার করতে<br><a href="https://wa.me/917003726953" target="_blank" rel="noopener noreferrer">WhatsApp: 7003726953</a></div></main><footer>© মরালী প্রকাশনী | Marali prakasani</footer><script>
 const books=[
